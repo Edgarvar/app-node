@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+  <%- include('partials/head') %>
   <body>
-    <h1><%= title %></h1>
-
-    <p>Repositorio para <%= title %></p>
-
+    <%- include('partials/header') %>
+    <%- include('partials/home') %>
+    <%- include('partials/about') %>
+    <%- include('partials/services') %>
   </body>
 </html>
