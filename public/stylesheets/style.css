@@ -56,7 +56,7 @@ body {
 
 header {
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 80% 87%, 0 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 80% 80%, 0 97%);
     padding-top: 100px;
 }
 
@@ -456,4 +456,11 @@ footer .footer-social i:hover {
 }
 footer .copyright {
     color:var(--ternary)
+}
+
+
+@media (max-width: 1023px) {
+    div #main-nav {
+        display: none;
+    }
 }
