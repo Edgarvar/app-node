@@ -1,7 +1,8 @@
 @import 'utilities.css';
 
 :root {
-    --primary: #3dcfd3;
+    /* --primary: #3dcfd3; */
+    --primary: #f89e3e;
     --dark: #161616;
     --pure: #ffffff;
     --ternary: #898989;
@@ -55,8 +56,10 @@ body {
 /* NavBar End */
 
 header {
-    background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 97%, 80% 80%, 0 97%);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/fancy-pants.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 80% 85%, 0 97%);
     padding-top: 100px;
 }
 
@@ -205,7 +208,7 @@ section.services .card-wrapper .card:hover h2,section.services .card-wrapper .ca
 /* section Freelancer  */
 section.freelancer {
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/camera.png);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/fancy-pants.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--pure);
@@ -317,7 +320,9 @@ section.work .card-wrapper .card img{
 
 /* Blog section  */
 section.blog {
-    background: var(--dark);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/fancy-pants.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-bottom: 12rem;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 80% 87%, 0 95%);
 }
